@@ -176,7 +176,7 @@ const closeThemeSection = function () {
 
 themeBtn.addEventListener('click', openThemeSection);
 
-themeBtns.addEventListener('click', openThemeSection);
+// themeBtns.addEventListener('click', openThemeSection);
 
 overlay.addEventListener('click', closeThemeSection);
 
