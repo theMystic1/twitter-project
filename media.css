@@ -148,3 +148,20 @@
     width: 4rem;
   }
 }
+
+@media (max-width: 21em) {
+  .tweet-content {
+    padding-left: 3rem;
+    max-width: 35rem;
+  }
+
+  .tweet-text {
+    font-size: 1.3rem;
+  }
+
+  .for-follow-btn {
+    max-width: 35rem;
+    white-space: nowrap;
+    justify-content: space-between;
+  }
+}
