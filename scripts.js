@@ -34,6 +34,11 @@ const postBtn = document.querySelector('.post-btn');
 const tweetsContainer = document.querySelector('.tweets');
 const openSetting = document.querySelector('.side-open');
 const moreLeftNav = document.querySelector('.more-content-left-nav');
+const inputSection = document.querySelector('#input-section');
+
+// inpAreaBtn.addEventListener('click', function () {
+
+// });
 
 const likke = function () {
   likee.forEach(likeBtn => {
@@ -351,6 +356,10 @@ const logosBtn = document.querySelector('.logos-btn');
 tweetBtn.addEventListener('click', function (e) {
   tweetInput.style.display = 'block';
   logosBtn.style.display = 'flex';
+
+  inputSection.scrollIntoView({
+    behavior: 'smooth',
+  });
 });
 
 // followSpan.addEventListener('click', function (e) {
