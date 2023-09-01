@@ -45,15 +45,11 @@ body {
   display: none;
 }
 
-.nav-pro-pic {
-  /* padding-left: 3rem; */
-}
-
 .loicon {
   margin-left: 15rem;
 }
 
-.pic-prof-nav {
+.pro-pic {
   height: 4rem;
   width: 4rem;
 }
