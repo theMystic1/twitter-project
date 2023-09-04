@@ -148,9 +148,8 @@
     max-width: 40rem;
   }
 
-  .pro-pic {
-    height: 4rem;
-    width: 4rem;
+  .nav-ion {
+    font-size: 4rem;
   }
 }
 
@@ -168,5 +167,9 @@
     max-width: 35rem;
     white-space: nowrap;
     justify-content: space-between;
+  }
+
+  .nav-ion {
+    font-size: 4rem;
   }
 }
